@@ -1,26 +1,20 @@
-# Lama Dev School Management Dashboard
+🚀 School Management Dashboard
+A responsive, role-based school management dashboard built using React, JavaScript, Tailwind CSS, and Recharts.
+It provides tailored dashboards for admins, teachers, students, and parents, helping manage student data, attendance, performance, and more, with interactive charts and tables.
 
-## Getting Started
+✨ Features
+--> 🔑 Role-based dashboards for admins, teachers, students, and parents
 
-First, run the development server:
+--> 📊 Interactive data tables for managing student records, attendance, and fees
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+--> 📈 Recharts integration for visualizing attendance trends and grade distributions
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+--> 📱 Mobile-first, responsive UI designed with Tailwind CSS
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+--> ⚛️ Component-based architecture in React for scalability and maintainability
 
-## Learn More
+🛠 Tech Stack
+--> Frontend: React, JavaScript
+--> Styling: Tailwind CSS
+--> Charts: Recharts
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Lama Dev Youtube Channel](https://youtube.com/lamadev) 
-- [Next.js](https://nextjs.org/learn)
