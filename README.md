@@ -14,6 +14,7 @@ It provides tailored dashboards for admins, teachers, students, and parents, hel
 --> ⚛️ Component-based architecture in React for scalability and maintainability
 
 🛠 Tech Stack
+
 --> Frontend: React, JavaScript
 
 --> Styling: Tailwind CSS
