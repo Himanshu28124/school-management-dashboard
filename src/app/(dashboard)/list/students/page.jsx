@@ -5,6 +5,7 @@ import Pagination from "@/components/Pagination";
 import Table from "@/components/table";
 import  {studentsData, role } from "@/lib/data";
 import Link from "next/link";
+import FormModal from "@/components/FormModal";
 
 
 const columns = [
@@ -68,9 +69,10 @@ const StudentListPage = () => {
             </button>
           </Link>
           {role==="admin" && (
-            <button className="w-7 h-7 flex items-center justify-center rounded-full bg-lamaPurple">
-              <Image src="/delete.png" alt="" width={16} height={16} />
-            </button>
+            //<button className="w-7 h-7 flex items-center justify-center rounded-full bg-lamaPurple">
+            //  <Image src="/delete.png" alt="" width={16} height={16} />
+            //</button>
+             <FormModal table="student" type="delete" id={item.id}/>
           )}
         </div>
       </td>
@@ -91,9 +93,13 @@ const StudentListPage = () => {
             <button className="w-8 h-8 flex items-center justify-center rounded-full bg-lamaYellow">
               <Image src="/sort.png" alt="" width={14} height={14}></Image>
             </button>
-            <button className="w-8 h-8 flex items-center justify-center rounded-full bg-lamaYellow">
-              <Image src="/plus.png" alt="" width={14} height={14}></Image>
-            </button>
+            {role==="admin" && (
+                //<button className="w-8 h-8 flex items-center justify-center rounded-full bg-lamaYellow">
+                //  <Image src="/plus.png" alt="" width={14} height={14}></Image>
+                //</button>
+                 <FormModal table="student" type="create"/>
+            )}
+            
           </div>
         </div>
       </div>
