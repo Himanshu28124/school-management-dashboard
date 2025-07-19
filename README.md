@@ -15,6 +15,8 @@ It provides tailored dashboards for admins, teachers, students, and parents, hel
 
 🛠 Tech Stack
 --> Frontend: React, JavaScript
+
 --> Styling: Tailwind CSS
+
 --> Charts: Recharts
 
