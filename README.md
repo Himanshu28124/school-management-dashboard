@@ -20,3 +20,6 @@ It provides tailored dashboards for admins, teachers, students, and parents, hel
 
 --> Charts: Recharts
 
+--> Forms : React hook forms
+
+
