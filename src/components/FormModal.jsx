@@ -35,7 +35,7 @@ const FormModal = ({table,data,type,id}) => {
             </form>
         ):
          type==="create" || type==="update"?(
-            forms[table](type,data)
+            forms[table]?.(type,data)|| <p className="text-red-500">Invalid table: {table}</p>
         ): 
         (
             "Form not found!"
