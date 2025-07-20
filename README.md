@@ -24,6 +24,13 @@ A responsive and modern school dashboard built with React. It provides data visu
   - React Calendar (calendar UI)
 
 ---
+## 📸 Screenshot
+
+![Dashboard Screenshot](./assets/ss1.png)
+![Dashboard Screenshot](./assets/ss2.png)
+![Dashboard Screenshot](./assets/ss3.png)
+![Dashboard Screenshot](./assets/ss4.png)
+
 
 ## 📦 Installation
 
