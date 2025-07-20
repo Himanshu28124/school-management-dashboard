@@ -26,7 +26,10 @@ A responsive and modern school dashboard built with React. It provides data visu
 ---
 ## 📸 Screenshot
 
-![Dashboard Screenshot](./screenshots/ss1.png)
+![Dashboard Screenshot](public/screenshots/ss1.png)
+![Dashboard Screenshot](public/screenshots/ss2.png)
+![Dashboard Screenshot](public/screenshots/ss3.png)
+![Dashboard Screenshot](public/screenshots/ss4.png)
 
 
 
